@@ -5,6 +5,7 @@ import EquationQuadratic from './components/equationQuadratic'
 import FormulaSumSquare from './components/formulaSumSquare'
 import FormulaWater from './components/formulaWater'
 import FormulaLogarithm from './components/formulaLogarithm'
+import InputNumber from './components/inputNumber'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <FormulaSumSquare />
       <FormulaWater />
       <FormulaLogarithm />
+      <InputNumber />
     </ol>
   )
 }
