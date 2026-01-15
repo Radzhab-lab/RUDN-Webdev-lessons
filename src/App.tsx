@@ -1,9 +1,12 @@
-import TaskList from './components/taskList'
+import Counter from './components/counter'
 import './App.css'
 
 function App() {
   return (
-    <TaskList />
+    <div>
+      <Counter initialValue={5} />
+      <Counter />
+    </div>
   )
 }
 
